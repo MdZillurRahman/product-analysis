@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 20px 100px;
+}
+
+.home img{
+    width: 27rem;
+    height: 33rem;
+}
+
+.travelling{
+    color:  orange;
+}

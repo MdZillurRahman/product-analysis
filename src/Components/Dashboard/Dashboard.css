@@ -1,0 +1,14 @@
+.dataChart{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.dataChart h3{
+    color: #8884d8;
+}
+
+.lineChart{
+    margin-top: 100px;
+}

@@ -1,0 +1,42 @@
+[{
+    "id": 1,
+    "name": "Asif Anzum Khan",
+    "email": "asif1996@gamai.com",
+    "rating" : 5,
+    "body": "This is the best website to get a travelling bag."
+  },
+  { 
+    "id": 2,
+    "name": "Tushar Mirza",
+    "email": "mirza601@xkx.com",
+    "rating" : 5,
+    "body": "They gave a lot of discount!!"
+  },
+  {
+    "id": 3,
+    "name": "Hasanur Rahman",
+    "email": "hasan1992@biye.com",
+    "rating" : 4.5,
+    "body": "Helpful user Interface"
+  },
+  { 
+    "id": 4,
+    "name": "Muntasir Arafat",
+    "email": "monoailsa@bairejabo.com",
+    "rating" : 4.0,
+    "body": "Best bag but did not get any discount!"
+  },
+  {
+    "id": 5,
+    "name": "Taseen Inkiad",
+    "email": "taseen@bideshjamo.com",
+    "rating" : 4.0,
+    "body": "Nice Showroom in Gulshan"
+  },
+  {
+    "id": 6,
+    "name": "Sanjidul Karim",
+    "email": "sanjiduportola@khai.com",
+    "rating" : 3.5,
+    "body": "I love Travelling!!!"
+  }]

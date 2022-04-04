@@ -1,0 +1,4 @@
+.review{
+    display: grid;
+    flex-wrap: wrap;
+}

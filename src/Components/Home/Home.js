@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useReview from '../../Hooks/useReview';
 import image from '../../images/Men-Genuine-Leather-Travel-Bag-in-Bangladesh.png';
+import Review from '../Review/Review';
 import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
 const Home = () => {
-
+    const [reviews, setReviews] = useReview();
     return (
         <div>
             <div className='home'>
@@ -19,9 +21,14 @@ const Home = () => {
             </div>
             <section>
                 <h1>Customer Review (3)</h1>
-                {
-                    <Reviews></Reviews>
-                }
+                <div>
+                    {
+                        reviews.slice(0, 3).map(review => <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
+                    }
+                </div>
                 <Link to='/reviews'><button className='btn'>See all Reviews</button></Link>
             </section>
         </div>

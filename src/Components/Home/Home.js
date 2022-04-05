@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import useReview from '../../Hooks/useReview';
 import image from '../../images/Men-Genuine-Leather-Travel-Bag-in-Bangladesh.png';
 import Review from '../Review/Review';
-import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
 const Home = () => {
@@ -19,8 +18,8 @@ const Home = () => {
                     <img src={image} alt="" />
                 </div>
             </div>
-            <section>
-                <h1>Customer Review (3)</h1>
+            <section className='customerReview'>
+                <div><h1>Customer Review (3)</h1></div>
                 <div>
                     {
                         reviews.slice(0, 3).map(review => <Review
@@ -29,7 +28,7 @@ const Home = () => {
                         ></Review>)
                     }
                 </div>
-                <Link to='/reviews'><button className='btn'>See all Reviews</button></Link>
+                <div><Link to='/reviews'><button className='btn'>See all Reviews</button></Link></div>
             </section>
         </div>
     );

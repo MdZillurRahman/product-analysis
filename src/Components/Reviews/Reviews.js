@@ -6,8 +6,10 @@ import './Reviews.css'
 const Reviews = () => {
     const [reviews, setReviews] = useReview();
     return (
-        <div>
-            <h2>Reviews</h2>
+        <div className='allReviews'>
+            <div>
+                <h2>Review</h2>
+            </div>
             <div className='reviews'>
                 {
                     reviews.map(review => <Review

@@ -1,6 +1,11 @@
+.allReviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .reviews{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-bottom: 50px;
 }

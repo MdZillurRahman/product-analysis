@@ -16,7 +16,7 @@ const Review = (props) => {
                     fullSymbol={<FontAwesomeIcon style={{ color: 'goldenrod' }} icon={faStar} />}
                     readonly
                 ></Rating></h4>
-                <p>{body}</p>
+                <p><b>Comments:</b> {body}</p>
             </div>
         </div>
     );

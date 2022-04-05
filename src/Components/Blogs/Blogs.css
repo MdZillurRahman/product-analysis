@@ -1,4 +1,13 @@
-.Q-A{
-    margin-left: 20px;
-    text-justify: distribute;
+.q-a{
+    margin: 50px;
+}
+
+td, th{
+    border:black thin solid;
+    max-width:50%;
+    width:50%;
+}
+
+table{
+    width:100%;
 }

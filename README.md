@@ -1,7 +1,7 @@
 # Product Analysis Website
 
-## [Live Hosting link](https://classroom.github.com/a/8blYLhL7)
-[https://classroom.github.com/a/8blYLhL7]
+## [Live Hosting link](https://product-analysis-by-zillurrahman.netlify.app/)
+[https://product-analysis-by-zillurrahman.netlify.app/]
 
 
 
